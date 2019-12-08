@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	id="WebApp_ID" version="3.0">
+	<display-name>BugSwitch</display-name>
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+	<servlet>
+		<servlet-name>Booking</servlet-name>
+		<servlet-class>Main.Booking</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Booking</servlet-name>
+		<url-pattern>/Booking</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>DateCheck</servlet-name>
+		<servlet-class>Main.DateCheck</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DateCheck</servlet-name>
+		<url-pattern>/DateCheck</url-pattern>
+	</servlet-mapping>
+</web-app>

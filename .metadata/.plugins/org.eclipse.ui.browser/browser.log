@@ -1,0 +1,161 @@
+
+Jan 03, 2017 13:07:58.84 NEW SESSION
+Jan 03, 2017 13:07:58.84 *************************
+Jan 03, 2017 13:07:58.85 A coding exception was thrown and uncaught in a Task.
+Jan 03, 2017 13:07:58.85 
+Jan 03, 2017 13:07:58.85 Full message: TypeError: this.Paths is null
+Jan 03, 2017 13:07:58.85 Full stack: Agent.write@resource:///modules/sessionstore/SessionWorker.js:196:9
+Jan 03, 2017 13:07:58.85 worker.dispatch@resource:///modules/sessionstore/SessionWorker.js:21:24
+Jan 03, 2017 13:07:58.85 anonymous/AbstractWorker.prototype.handleMessage@resource://gre/modules/workers/PromiseWorker.js:122:16
+Jan 03, 2017 13:07:58.85 @resource:///modules/sessionstore/SessionWorker.js:30:41
+Jan 03, 2017 13:07:58.85 
+Jan 03, 2017 13:07:58.85 *************************
+Jan 03, 2017 13:07:58.85 console.error: 
+Jan 03, 2017 13:07:58.85   Could not write session state file 
+Jan 03, 2017 13:07:58.85   Message: TypeError: this.Paths is null
+Jan 03, 2017 13:07:58.85   Stack:
+Jan 03, 2017 13:07:58.85     Agent.write@resource:///modules/sessionstore/SessionWorker.js:196:9
+Jan 03, 2017 13:07:58.85 worker.dispatch@resource:///modules/sessionstore/SessionWorker.js:21:24
+Jan 03, 2017 13:07:58.85 anonymous/AbstractWorker.prototype.handleMessage@resource://gre/modules/workers/PromiseWorker.js:122:16
+Jan 03, 2017 13:07:58.85 @resource:///modules/sessionstore/SessionWorker.js:30:41
+Jan 03, 2017 13:07:58.85 
+Jan 03, 2017 13:07:58.85   Agent.write@resource:///modules/sessionstore/SessionWorker.js:196:9
+Jan 03, 2017 13:07:58.85 worker.dispatch@resource:///modules/sessionstore/SessionWorker.js:21:24
+Jan 03, 2017 13:07:58.85 anonymous/AbstractWorker.prototype.handleMessage@resource://gre/modules/workers/PromiseWorker.js:122:16
+Jan 03, 2017 13:07:58.85 @resource:///modules/sessionstore/SessionWorker.js:30:41
+Jan 03, 2017 13:07:58.85 
+Jan 03, 2017 13:09:30.30 1483429170302	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+Jan 03, 2017 14:15:58.65 1483433158654	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+
+Feb 06, 2017 15:05:50.11 NEW SESSION
+Feb 06, 2017 15:05:50.11 Couldn't get object: TypeError: Components.classes[cid] is undefined
+Feb 06, 2017 15:05:50.16 Couldn't get string: closeAndStopPicking
+Feb 06, 2017 15:06:50.71 1486373810722	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+Feb 06, 2017 15:17:49.11 1486374469129	addons.repository	WARN	Search failed when repopulating cache
+Feb 06, 2017 15:17:49.27 1486374469288	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+Feb 06, 2017 15:17:49.28 1486374469290	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+Feb 06, 2017 15:17:49.28 1486374469292	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+Feb 06, 2017 15:17:49.28 1486374469293	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+Feb 06, 2017 15:17:49.28 1486374469295	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+Feb 06, 2017 15:17:49.28 1486374469296	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+Feb 06, 2017 15:17:49.28 1486374469303	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+Feb 06, 2017 15:17:49.30 1486374469305	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+Feb 06, 2017 15:17:49.30 1486374469308	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+Feb 06, 2017 15:17:49.30 1486374469310	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+Feb 06, 2017 15:17:49.30 1486374469317	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+Feb 06, 2017 15:17:49.32 1486374469318	addons.manager	WARN	Failed to update system addons: Error: Failed downloading XML, status: 0, reason: error (resource://gre/modules/addons/ProductAddonChecker.jsm:111:16) JS Stack trace: downloadXML/</fail@ProductAddonChecker.jsm:111:16
+
+Feb 18, 2017 12:54:38.99 NEW SESSION
+Feb 18, 2017 12:54:38.99 Couldn't get object: TypeError: Components.classes[cid] is undefined
+Feb 18, 2017 12:54:39.01 Couldn't get string: closeAndStopPicking
+Feb 18, 2017 12:55:39.39 1487402739396	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+Feb 18, 2017 13:02:37.99 1487403157996	addons.repository	WARN	Search failed when repopulating cache
+Feb 18, 2017 13:02:38.12 1487403158124	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+Feb 18, 2017 13:02:38.12 1487403158125	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+Feb 18, 2017 13:02:38.12 1487403158126	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+Feb 18, 2017 13:02:38.12 1487403158128	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+Feb 18, 2017 13:02:38.12 1487403158129	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+Feb 18, 2017 13:02:38.13 1487403158130	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+Feb 18, 2017 13:02:38.13 1487403158134	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+Feb 18, 2017 13:02:38.13 1487403158135	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+Feb 18, 2017 13:02:38.13 1487403158137	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+Feb 18, 2017 13:02:38.13 1487403158139	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+Feb 18, 2017 13:02:38.14 1487403158143	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+Feb 18, 2017 13:02:38.14 1487403158143	addons.manager	WARN	Failed to update system addons: Error: Failed downloading XML, status: 0, reason: error (resource://gre/modules/addons/ProductAddonChecker.jsm:111:16) JS Stack trace: downloadXML/</fail@ProductAddonChecker.jsm:111:16
+
+Feb 18, 2017 13:14:30.16 NEW SESSION
+Feb 18, 2017 13:14:30.16 Couldn't get object: TypeError: Components.classes[cid] is undefined
+Feb 18, 2017 13:14:30.16 Couldn't get string: closeAndStopPicking
+Feb 18, 2017 13:15:29.73 hashcompleter: notifying failure
+Feb 18, 2017 13:15:30.59 1487403930597	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+Feb 18, 2017 13:17:29.98 hashcompleter: notifying failure
+Feb 18, 2017 13:33:14.05 hashcompleter: Can't make request to https://safebrowsing.google.com/safebrowsing/gethash?client=navclient-auto-ffox&appver=48.0&pver=2.2
+Feb 18, 2017 13:33:14.05 hashcompleter: notifying failure
+Feb 18, 2017 14:37:20.96 [GFX1-]: [D2D1.1] 4CreateBitmap failure Size(28,30647) Code: 0x80070057 format 0
+Feb 18, 2017 14:55:10.27 [GFX1-]: [D2D1.1] 4CreateBitmap failure Size(28,30647) Code: 0x80070057 format 0
+Feb 18, 2017 16:30:30.85 Couldn't get object: TypeError: Components.classes[cid] is undefined
+Feb 18, 2017 16:30:30.85 Couldn't get string: closeAndStopPicking
+Feb 18, 2017 16:43:39.60 Couldn't get object: TypeError: Components.classes[cid] is undefined
+Feb 18, 2017 16:43:39.60 Couldn't get string: closeAndStopPicking
+Feb 18, 2017 16:43:56.23 Couldn't get object: TypeError: Components.classes[cid] is undefined
+Feb 18, 2017 16:43:56.24 Couldn't get string: closeAndStopPicking
+Feb 18, 2017 16:44:56.63 1487416496642	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+Feb 18, 2017 18:19:50.88 
+Feb 18, 2017 18:19:50.88 ###!!! [Parent][OnMaybeDequeueOne] Error: Channel closing: too late to send/recv, messages will be lost
+Feb 18, 2017 18:19:50.88 
+
+Feb 19, 2017 15:33:47.57 NEW SESSION
+Feb 19, 2017 15:33:47.57 1487498627573	addons.webextension.{6AC85730-7D0F-4de0-B3FA-21142DD85326}	WARN	Loading extension '{6AC85730-7D0F-4de0-B3FA-21142DD85326}': Reading manifest: Error processing options_page: An unexpected property was found in the WebExtension manifest.
+Feb 19, 2017 15:33:47.61 1487498627616	addons.webextension.{6AC85730-7D0F-4de0-B3FA-21142DD85326}	WARN	Please specify whether you want browser_style or not in your browser_action options.
+Feb 19, 2017 15:53:33.31 [GFX1-]: [D2D1.1] 4CreateBitmap failure Size(28,30647) Code: 0x80070057 format 0
+
+Feb 20, 2017 09:32:36.14 NEW SESSION
+Feb 20, 2017 09:32:36.14 1487563356139	addons.webextension.{6AC85730-7D0F-4de0-B3FA-21142DD85326}	WARN	Loading extension '{6AC85730-7D0F-4de0-B3FA-21142DD85326}': Reading manifest: Error processing options_page: An unexpected property was found in the WebExtension manifest.
+Feb 20, 2017 09:32:36.17 1487563356177	addons.webextension.{6AC85730-7D0F-4de0-B3FA-21142DD85326}	WARN	Please specify whether you want browser_style or not in your browser_action options.
+Feb 20, 2017 09:32:37.60 console.error: CustomizableUI: 
+Feb 20, 2017 09:32:37.60   NotFoundError: Node was not found -- :1198
+
+Feb 25, 2017 12:38:13.23 NEW SESSION
+Feb 25, 2017 12:38:13.23 1488006493235	addons.webextension.{6AC85730-7D0F-4de0-B3FA-21142DD85326}	WARN	Loading extension '{6AC85730-7D0F-4de0-B3FA-21142DD85326}': Reading manifest: Error processing options_page: An unexpected property was found in the WebExtension manifest.
+Feb 25, 2017 12:38:13.28 1488006493281	addons.webextension.{6AC85730-7D0F-4de0-B3FA-21142DD85326}	WARN	Please specify whether you want browser_style or not in your browser_action options.
+Feb 25, 2017 12:38:15.19 console.error: CustomizableUI: 
+Feb 25, 2017 12:38:15.19   NotFoundError: Node was not found -- :1198
+Feb 25, 2017 12:39:14.33 1488006554332	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+Feb 25, 2017 12:55:17.49 1488007517499	addons.repository	WARN	Search failed when repopulating cache
+Feb 25, 2017 12:55:17.57 1488007517575	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+Feb 25, 2017 12:55:17.57 1488007517576	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+Feb 25, 2017 12:55:17.57 1488007517576	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+Feb 25, 2017 12:55:17.57 1488007517577	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+Feb 25, 2017 12:55:17.57 1488007517578	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+Feb 25, 2017 12:55:17.57 1488007517578	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+Feb 25, 2017 12:55:17.58 1488007517581	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+Feb 25, 2017 12:55:17.58 1488007517583	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+Feb 25, 2017 12:55:17.58 1488007517584	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+Feb 25, 2017 12:55:17.58 1488007517585	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+Feb 25, 2017 12:55:17.58 1488007517588	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+Feb 25, 2017 12:55:17.59 1488007517588	addons.manager	WARN	Failed to update system addons: Error: Failed downloading XML, status: 0, reason: error (resource://gre/modules/addons/ProductAddonChecker.jsm:111:16) JS Stack trace: downloadXML/</fail@ProductAddonChecker.jsm:111:16
+
+Mar 22, 2017 14:18:46.77 NEW SESSION
+Mar 22, 2017 14:18:46.77 1490172526767	addons.webextension.{6AC85730-7D0F-4de0-B3FA-21142DD85326}	WARN	Loading extension '{6AC85730-7D0F-4de0-B3FA-21142DD85326}': Reading manifest: Error processing options_page: An unexpected property was found in the WebExtension manifest.
+Mar 22, 2017 14:18:46.83 1490172526831	addons.webextension.{6AC85730-7D0F-4de0-B3FA-21142DD85326}	WARN	Please specify whether you want browser_style or not in your browser_action options.
+
+Mar 25, 2017 13:38:29.06 NEW SESSION
+Mar 25, 2017 13:38:29.06 1490429309070	addons.webextension.{6AC85730-7D0F-4de0-B3FA-21142DD85326}	WARN	Loading extension '{6AC85730-7D0F-4de0-B3FA-21142DD85326}': Reading manifest: Error processing options_page: An unexpected property was found in the WebExtension manifest.
+Mar 25, 2017 13:38:29.21 1490429309217	addons.webextension.{6AC85730-7D0F-4de0-B3FA-21142DD85326}	WARN	Please specify whether you want browser_style or not in your browser_action options.
+Mar 25, 2017 13:39:30.42 1490429370427	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+
+Mar 31, 2017 13:26:01.36 NEW SESSION
+Mar 31, 2017 13:26:01.36 1490946961365	addons.webextension.{6AC85730-7D0F-4de0-B3FA-21142DD85326}	WARN	Loading extension '{6AC85730-7D0F-4de0-B3FA-21142DD85326}': Reading manifest: Error processing options_page: An unexpected property was found in the WebExtension manifest.
+Mar 31, 2017 13:26:01.40 1490946961401	addons.webextension.{6AC85730-7D0F-4de0-B3FA-21142DD85326}	WARN	Please specify whether you want browser_style or not in your browser_action options.
+Mar 31, 2017 13:28:39.95 1490947119956	addons.update-checker	WARN	Update manifest for aushelper@mozilla.org did not contain an updates property
+Mar 31, 2017 13:28:40.23 1490947120235	addons.update-checker	WARN	Update manifest for e10srollout@mozilla.org did not contain an updates property
+Mar 31, 2017 13:28:40.56 1490947120564	addons.update-checker	WARN	Update manifest for firefox@getpocket.com did not contain an updates property
+Mar 31, 2017 13:28:40.61 1490947120619	addons.update-checker	WARN	Update manifest for webcompat@mozilla.org did not contain an updates property
+Mar 31, 2017 13:28:40.64 1490947120646	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+Mar 31, 2017 13:28:40.88 1490947120885	addons.update-checker	WARN	Update manifest for deployment-checker@mozilla.org did not contain an updates property
+Mar 31, 2017 13:28:41.53 1490947121534	addons.xpi	WARN	Failed to remove temporary file C:\Users\TEJASW~1\AppData\Local\Temp\tmp-x9v.xpi for addon https://addons.cdn.mozilla.net/user-media/addons/271/colorzilla-3.3-an+fx.xpi?filehash=sha256%3A668923120951a02eb4135ae871c83f5371cfaeda851091673e1def8e061b02c3: [Exception... "Component returned failure code: 0x80520015 (NS_ERROR_FILE_ACCESS_DENIED) [nsIFile.remove]"  nsresult: "0x80520015 (NS_ERROR_FILE_ACCESS_DENIED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: removeTemporaryFile :: line 5469"  data: no] Stack trace: removeTemporaryFile()@resource://gre/modules/addons/XPIProvider.jsm:5469 < startInstall/<()@resource://gre/modules/addons/XPIProvider.jsm:5836 < process()@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:917 < walkerLoop()@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:801 < scheduleWalkerLoop/<()@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:737
+Mar 31, 2017 13:28:41.87 1490947121877	addons.webextension.{6AC85730-7D0F-4de0-B3FA-21142DD85326}	WARN	Please specify whether you want browser_style or not in your browser_action options.
+Mar 31, 2017 13:32:02.18 [Child 6572] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-beta-w32-0000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Mar 31, 2017 13:32:08.57 1490947328574	addons.webextension.{6AC85730-7D0F-4de0-B3FA-21142DD85326}	WARN	Please specify whether you want browser_style or not in your browser_action options.
+Mar 31, 2017 13:32:14.53 [Child 3268] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-beta-w32-0000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Mar 31, 2017 13:32:14.53 [Child 3268] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-beta-w32-0000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Mar 31, 2017 13:32:31.27 1490947351271	addons.webextension.{6AC85730-7D0F-4de0-B3FA-21142DD85326}	WARN	Please specify whether you want browser_style or not in your browser_action options.
+Mar 31, 2017 13:39:57.42 1490947797428	addons.webextension.{6AC85730-7D0F-4de0-B3FA-21142DD85326}	WARN	Please specify whether you want browser_style or not in your browser_action options.
+Mar 31, 2017 13:48:28.36 [Child 2108] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-beta-w32-0000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Mar 31, 2017 13:48:28.36 [Child 2108] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-beta-w32-0000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Mar 31, 2017 13:48:37.60 1490948317606	addons.webextension.{6AC85730-7D0F-4de0-B3FA-21142DD85326}	WARN	Please specify whether you want browser_style or not in your browser_action options.
+Mar 31, 2017 13:59:32.39 1490948972392	addons.webextension.{6AC85730-7D0F-4de0-B3FA-21142DD85326}	WARN	Please specify whether you want browser_style or not in your browser_action options.
+Mar 31, 2017 14:03:30.06 1490949210066	addons.webextension.{6AC85730-7D0F-4de0-B3FA-21142DD85326}	WARN	Please specify whether you want browser_style or not in your browser_action options.
+
+Apr 01, 2017 12:53:26.34 NEW SESSION
+Apr 01, 2017 12:53:26.34 1491031406340	addons.webextension.{6AC85730-7D0F-4de0-B3FA-21142DD85326}	WARN	Please specify whether you want browser_style or not in your browser_action options.
+Apr 01, 2017 13:37:52.73 1491034072730	addons.update-checker	WARN	Update manifest for aushelper@mozilla.org did not contain an updates property
+Apr 01, 2017 13:37:53.59 1491034073591	addons.update-checker	WARN	Update manifest for webcompat@mozilla.org did not contain an updates property
+Apr 01, 2017 13:37:53.63 1491034073631	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+Apr 01, 2017 13:37:55.41 1491034075409	addons.update-checker	WARN	Update manifest for e10srollout@mozilla.org did not contain an updates property
+Apr 01, 2017 13:37:55.62 1491034075627	addons.update-checker	WARN	Update manifest for deployment-checker@mozilla.org did not contain an updates property
+Apr 01, 2017 13:38:01.12 1491034081128	addons.update-checker	WARN	Update manifest for firefox@getpocket.com did not contain an updates property
+Apr 01, 2017 16:10:23.42 [Child 5384] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-beta-w32-0000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+Apr 02, 2017 01:52:08.33 NEW SESSION
+Apr 02, 2017 01:52:08.33 1491078128334	addons.webextension.{6AC85730-7D0F-4de0-B3FA-21142DD85326}	WARN	Please specify whether you want browser_style or not in your browser_action options.

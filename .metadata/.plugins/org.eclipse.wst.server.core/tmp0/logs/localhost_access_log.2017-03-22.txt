@@ -1,0 +1,10 @@
+127.0.0.1 - - [22/Mar/2017:14:18:42 +0530] "GET / HTTP/1.1" 404 992
+0:0:0:0:0:0:0:1 - - [22/Mar/2017:14:18:50 +0530] "GET /flight/index.jsp HTTP/1.1" 200 1688
+0:0:0:0:0:0:0:1 - - [22/Mar/2017:14:18:50 +0530] "GET /flight/looks.css HTTP/1.1" 200 3502
+0:0:0:0:0:0:0:1 - - [22/Mar/2017:14:18:50 +0530] "GET /flight/images/gallery.png HTTP/1.1" 200 5638
+0:0:0:0:0:0:0:1 - - [22/Mar/2017:14:18:51 +0530] "GET /favicon.ico HTTP/1.1" 404 1014
+0:0:0:0:0:0:0:1 - - [22/Mar/2017:14:18:51 +0530] "GET /favicon.ico HTTP/1.1" 404 1014
+0:0:0:0:0:0:0:1 - - [22/Mar/2017:14:18:59 +0530] "GET /flight/ShowFlight.jsp?input_to=Pune&input_from=New+Delhi&input_date=Sat%2C+02+Apr+2017 HTTP/1.1" 200 1965
+0:0:0:0:0:0:0:1 - - [22/Mar/2017:14:19:01 +0530] "GET /flight/booking.jsp HTTP/1.1" 200 3726
+0:0:0:0:0:0:0:1 - - [22/Mar/2017:14:19:01 +0530] "GET /flight/Minds.js HTTP/1.1" 200 1777
+0:0:0:0:0:0:0:1 - - [22/Mar/2017:14:19:16 +0530] "POST /flight/Booking HTTP/1.1" 200 -

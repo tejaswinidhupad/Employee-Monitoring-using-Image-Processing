@@ -1,0 +1,111 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<script src="jquery-1.8.2.js"></script>
+    <script src="mfs100-9.0.2.6.js"></script>
+       <script language="javascript" type="text/javascript">
+       var quality = 60; //(1 to 100) (recommanded minimum 55)
+       var timeout = 10; // seconds (minimum=10(recommanded), maximum=60, unlimited=0 )
+
+       function Capture() {
+           try {
+               document.getElementById('imgFinger').src = "data:image/bmp;base64,";               
+               document.getElementById('txtIsoTemplate').value = "";                
+
+               var res = CaptureFinger(quality, timeout);
+               if (res.httpStaus) {
+
+                   document.getElementById('txtStatus').value = "ErrorCode: " + res.data.ErrorCode + " ErrorDescription: " + res.data.ErrorDescription;
+
+                   if (res.data.ErrorCode == "0") {
+                       document.getElementById('imgFinger').src = "data:image/bmp;base64," + res.data.BitmapData;
+                       var imageinfo = "Quality: " + res.data.Quality + " Nfiq: " + res.data.Nfiq + " W(in): " + res.data.InWidth + " H(in): " + res.data.InHeight + " area(in): " + res.data.InArea + " Resolution: " + res.data.Resolution + " GrayScale: " + res.data.GrayScale + " Bpp: " + res.data.Bpp + " WSQCompressRatio: " + res.data.WSQCompressRatio + " WSQInfo: " + res.data.WSQInfo;
+                        
+                       document.getElementById('txtIsoTemplate').value = res.data.IsoTemplate;
+                       
+                   }
+               }
+               else {
+                   alert(res.err);
+               }
+           }
+           catch (e) {
+               alert(e);
+           }
+           return false;
+       }
+       
+       
+       </script>
+<style>
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+</style>
+<body>
+
+<!--<h3>Using CSS to style an HTML Form</h3>-->
+
+<div>
+  <form action="save" method="POST">
+    <label for="name">Name</label>
+    <input type="text"  name="name" placeholder="">
+
+    <label for="dob">Year of Birth[_ _ _ _]</label>
+    <input type="text"  name="dob" placeholder="">
+
+	<label for="number">Aadhhar</label>
+    <input type="text"  name="aadhhar" placeholder="">
+     <input type="submit" value="Submit">
+  </form>
+  <textarea id="txtIsoTemplate" style="width: 100%; height:200px;"> </textarea>
+
+    	<button  onclick="return Capture()">Scan Fingerprint</button>
+    <table width="100%">
+            <tr>
+                <td width="220px">
+                    Status:
+                </td>
+                <td>
+                    <input type="text" value="" id="txtStatus" class="form-control" />
+                </td>
+                <td width="150px" height="190px" align="center" class="img">
+                <img id="imgFinger" width="145px" height="188px" alt="Finger Image" />
+            </td>
+            </tr>
+            </table>
+  
+   
+</div>
+
+</body>
+</html>
+ 

@@ -1,0 +1,74 @@
+package main;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+
+import javax.servlet.ServletConfig;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+/**
+ * Servlet implementation class save
+ */
+@WebServlet("/save")
+public class save extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+    /**
+     * Default constructor. 
+     */
+
+	String Name,AadharNo,DOB,fingerprint;
+	//database variables
+	Connection con = null;
+	PreparedStatement ps;
+	ResultSet rs;
+    public save() {
+        // TODO Auto-generated constructor stub
+    }
+
+	/**
+	 * @see Servlet#init(ServletConfig)
+	 */
+	public void init(ServletConfig config) throws ServletException {
+		try
+		{
+			
+			con = DoConnectionSQL.getConnection();
+		}
+		catch(Exception e1)
+		{
+			e1.printStackTrace();
+		}
+	}
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+
+		Name=request.getParameter("Name");
+		AadharNo=request.getParameter("AadharNo");
+		DOB=request.getParameter("DOB");
+		PrintWriter out = response.getWriter();
+		
+
+      out.println("<html>");
+      out.println("<body>");
+      out.println("<h1> "+Name+"<br>"+"</h1>");
+      out.println("<h1> "+AadharNo+"<br>"+"</h1>");
+      out.println("<h1> "+DOB+"<br>"+"</h1>");
+      out.println("</body>");
+     out.println("</html>"); 
+	
+		
+	}
+
+}
